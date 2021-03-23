@@ -1,146 +1,354 @@
-<header id="menu" class="menu"> 
 
-	<div class="container-fluid container-fluid--big"> 
-		<a class="menu__logo" href="index.php"> 
-			<img class="menu__logo__white" src="assets/imgs/liberty_logo.png" alt="Liberty" /> 
-			<img  class="menu__logo__black"  src="assets/imgs/liberty_logo.png" alt="Liberty" /> 
-		</a> 
-	</div> 
 
-	<div class="menu__top"> 
-		<nav class="menu__top__primary"> 
-			<ul class="menu__top__primary__pages"> 
-				<li class="menu__top__primary__page menu__top__primary__page--childrens"> 
-					<a class="" href="#">LIBERTY</a> 
-					<ul class="menu__top__primary__pages__children"> 
-						<li> <a class="" href="historia-grupo-nabeiro.html">History</a> </li> 
-						<li> <a class="" href="visao-grupo-nabeiro.html">Vision & Mission</a> </li> 
-						<li> <a class="" href="fundador.html">Founder</a> </li> 
-						<li> <a class="" href="grupo-no-mundo.html">Worldwide Export</a> </li> 
-						<li> <a class="" href="organograma-grupo-nabeiro.html">Organizational Chart</a> </li>
-						<li> <a class="" href="premios-e-distincoes.html">Awards & Certifications</a> </li> 
-					</ul> 
-				</li> 
-				<li class="menu__top__primary__page menu__top__primary__page--childrens"> <a class="" href="#">BUSINESS</a> 
-					<ul class="menu__top__primary__pages__children"> 
-						<li> <a class="" href="empresas.html">Empresas</a> </li> 
-						<li> <a class="" href="marcas-proprias.html">Marcas Próprias</a> </li> 
-						<li> <a class="" href="marcas-representadas.html">Marcas Representadas</a> </li> 
-					</ul> 
-			    </li> 
-				<li class="menu__top__primary__page "> 
-					<a class="" href="sustentabilidade.html">PEOPLE</a> 
-				</li> 
-				<li class="menu__top__primary__page menu__top__primary__page--childrens"> 
-					<a class="" href="#">CSR</a> 
-					<ul class="menu__top__primary__pages__children"> 
-						<li> <a class="" href="diverge.html">Diverge – Centro de Inovação do Grupo Nabeiro</a> </li> 
-						<li> <a class="" href="centro-de-ciencia-do-cafe.html">Centro de Ciência do Café</a> </li> 
-					</ul> 
-				</li> 
-				<li class="menu__top__primary__page menu__top__primary__page--childrens"> <a class="" href="#">NEWSROOM</a> 
-					<ul class="menu__top__primary__pages__children"> 
-					<li> <a class="" href="carreiras.html">Carreiras</a> </li> 
-					<li> <a class="" href="candidaturas.html">Candidaturas</a> </li> 
-					<li> <a class="" href="formacao-e-desenvolvimento.html">Formação e Desenvolvimento</a> </li> 
-					</ul> 
-			    </li> 
-				<li class="menu__top__primary__page menu__top__primary__page--childrens"> <a class="" href="#">CAREERS</a> 
-					<ul class="menu__top__primary__pages__children"> 
-						<li> <a class="" href="comunicados-de-imprensa.html">Comunicados de Imprensa</a> </li> 
-						<li> <a class="" href="noticias.html">Notícias</a> </li> 
-						<li> <a class="" href="media-kit.html">Media Kit</a> </li> 
-					</ul> 
-				</li> 
-			</ul> 
-		</nav> 
+<!DOCTYPE html>
+<html lang="en" >
 
-		<div class="container-fluid container-fluid--big position-relative"> 
-			<button data-lottie="" class="menu__top__search-btn" type="submit" aria-expanded="false" > <span class="sr-only"></span> 
-		    </button>
-		</div> 
+<head>
 
-		<form class="menu__top__search" id="top_search_form" role="search" action="" method="get"> 
-			<div class="container-fluid container-fluid--big position-relative"> 
-				<input class="menu__top__search__input" name="s" type="text" placeholder="Diga-nos o que procura…." autocomplete="off" value="" aria-label="Pesquisar" spellcheck="false" /> 
-				<button class="menu__top__search__submit" type="submit" aria-expanded="false" aria-label="Pesquisar"> </button> 
-			</div> 
-		</form> 
-	</div> 
+  <meta charset="UTF-8">
+  
 
-	<div class="container-fluid container-fluid--big">
-		<div class="menu__hamburger-wrap"> 
-			<button data-hamburger-btn="" type="button" class="menu__hamburger" aria-label="Abrir menu"> 
-				<span class="hamburger">
-				<span class="hamburger__center"></span> 
-				</span> 
-			</button> 
-		</div> 
-	</div> 
-</header> 
-<div class="modal-menu"> 
-	<div class="modal-menu__bg">
-		<div class="modal-menu__bg__arrows"></div> 
-	</div> 
 
-	<div class="container-fluid container-fluid--big position-relative">
-		<form class="modal-menu__search " role="search" action="" method="get"> 
-		<input id="modal-menu-input" class="modal-menu__search__input d-none d-md-block" name="s" type="text" placeholder="Search" autocomplete="off" value="" aria-label="Search" spellcheck="false" /> <button class="modal-menu__search__submit d-none d-md-block" data-focus-if-empty="#modal-menu-input" type="submit" aria-expanded="false" aria-label="Search"> <svg class=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#sprite-search"></use></svg> </button> <button class="modal-menu__search__submit d-md-none" type="submit" aria-expanded="false" aria-label="Search"> <svg class=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#sprite-search"></use></svg> </button> 
-		</form> 
-	</div> 
+  <title>CodePen - Pure CSS Responsive Dropdown Menu</title>
+  
+  
+  
+  
+<style>
+/* CSS Document */
 
-	<div class="container-fluid container-fluid--big modal-menu__content"> 
-		<div class="modal-menu__nav-wrap"> 
-			<nav class="modal-menu__nav "> 
-				<div class="modal-menu__nav__pages row mt-n40 mt-md-n70">
-					<div class="modal-menu__nav__page mt-30 mt-md-50 pt-md-10 col-md-6 col-lg-4 modal-menu__nav__page--childrens"> <a class=" type--20-32" href="#" data-self-toggle="opened">LIBERTY</a> 
-						<ul class="modal-menu__nav__pages__children ml-20 d-none d-md-block"> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="historia-grupo-nabeiro.html">History</a> </li> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="visao-grupo-nabeiro.html">Vision & Mission</a> </li> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="fundador.html">Founder</a> </li> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="grupo-no-mundo.html">Worldwide Export</a> </li> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="organograma-grupo-nabeiro.html">Organizational Chart</a> </li> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="premios-e-distincoes.html">Awards & Certifications</a> </li> 
-						</ul> 
-					</div> 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
-					<div class="modal-menu__nav__page mt-30 mt-md-50 pt-md-10 col-md-6 col-lg-4 modal-menu__nav__page--childrens"> <a class=" type--20-32" href="#" data-self-toggle="opened">BUSINESS</a> 
-						<ul class="modal-menu__nav__pages__children ml-20 d-none d-md-block"> 
-						<li class="mt-20"> <a class=" type--13 type--bold" href="empresas.html">Empresas</a> </li> 
-						<li class="mt-20"> <a class=" type--13 type--bold" href="marcas-proprias.html">Marcas Próprias</a> </li> 
-						<li class="mt-20"> <a class=" type--13 type--bold" href="marcas-representadas.html">Marcas Representadas</a> </li> 
-						</ul> 
-					</div> 
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: #FFF;
+}	
 
-					<div class="modal-menu__nav__page mt-30 mt-md-50 pt-md-10 col-md-6 col-lg-4 "> 
-						<a class=" type--20-32" href="sustentabilidade.html" >PEOPLE</a> 
-					</div> 
+h3 {
+	font-size: 30px;
+	line-height: 34px;
+	text-align: center;
+	color: #FFF;
+}
 
-					<div class="modal-menu__nav__page mt-30 mt-md-50 pt-md-10 col-md-6 col-lg-4 modal-menu__nav__page--childrens"> <a class=" type--20-32" href="#" data-self-toggle="opened">CSR</a> 
-						<ul class="modal-menu__nav__pages__children ml-20 d-none d-md-block"> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="diverge.html">Diverge – Centro de Inovação do Grupo Nabeiro</a> </li> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="centro-de-ciencia-do-cafe.html">Centro de Ciência do Café</a> </li> 
-						</ul> 
-					</div> 
+h3 a {
+	color: #FFF;
+}
 
-					<div class="modal-menu__nav__page mt-30 mt-md-50 pt-md-10 col-md-6 col-lg-4 modal-menu__nav__page--childrens"> <a class=" type--20-32" href="#" data-self-toggle="opened">NEWSROOM</a> 
-						<ul class="modal-menu__nav__pages__children ml-20 d-none d-md-block"> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="carreiras.html">Carreiras</a> </li> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="candidaturas.html">Candidaturas</a> </li> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="formacao-e-desenvolvimento.html">Formação e Desenvolvimento</a> </li> 
-						</ul> 
-					</div> 
+a {
+	color: #FFF;
+}
 
-					<div class="modal-menu__nav__page mt-30 mt-md-50 pt-md-10 col-md-6 col-lg-4 modal-menu__nav__page--childrens"> <a class=" type--20-32" href="#" data-self-toggle="opened">CAREERS</a> 
-						<ul class="modal-menu__nav__pages__children ml-20 d-none d-md-block"> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="comunicados-de-imprensa.html">Comunicados de Imprensa</a> </li> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="noticias.html">Notícias</a> </li> 
-							<li class="mt-20"> <a class=" type--13 type--bold" href="media-kit.html">Media Kit</a> </li> 
-						</ul> 
-					</div> 
-				</div> 
-			</nav> 
-		</div> 
-	</div> 
-</div>
+h1 {
+	margin-top: 100px;
+	text-align:center;
+	font-size:60px;
+	line-height: 70px;
+	font-family: 'Bree Serif', 'serif';
+	}
 
+#container {
+	margin: 0 auto;
+	max-width: 890px;
+}
+
+p {
+	text-align: center;
+}
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+/* Giving a background-color to the nav container. */
+.header_nav { 
+	margin:0;
+	padding: 0;
+	background-color: #254441;
+}
+
+#logo {
+	display: block;
+	padding: 0 30px;
+	float: left;
+	font-size:20px;
+	line-height: 60px;
+}
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+.header_nav:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+.header_nav ul {
+	float: right;
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	}
+	
+/* Positioning the navigation items inline */
+.header_nav ul li {
+	margin: 0px;
+	display:inline-block;
+	float: left;
+	background-color: #254441;
+	}
+
+/* Styling the links */
+.header_nav a {
+	display:block;
+	padding:14px 20px;	
+	color:#FFF;
+	font-size:17px;
+	text-decoration:none;
+}
+
+
+.header_nav ul li ul li:hover { background: #000000; }
+
+/* Background color change on Hover */
+.header_nav a:hover { 
+	background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+.header_nav ul ul {
+	display: none;
+	position: absolute; 
+	/* has to be the same number as the "line-height" of "nav a" */
+	top: 60px; 
+}
+	
+/* Display Dropdowns on Hover */
+.header_nav ul li:hover > ul {
+	display:flex;
+}
+	
+/* Fisrt Tier Dropdown */
+.header_nav ul ul li {
+	width:165px;
+	float:none;
+	display:inline-block;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+.header_nav ul ul ul li {
+	position: relative;
+	top:-60px;
+	/* has to be the same number as the "width" of "nav ul ul li" */ 
+	left:170px; 
+}
+
+	
+/* Change ' +' in order to change the Dropdown symbol */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+
+	#logo {
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+
+	.header_nav {
+		margin: 0;
+	}
+
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+	/* Stylinf the toggle lable */
+	.toggle {
+		display: block;
+		background-color: #254441;
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px;
+		text-decoration:none;
+		border:none;
+	}
+
+	.toggle:hover {
+		background-color: #000000;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	.header_nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	.header_nav ul ul .toggle,
+	.header_nav ul ul a {
+		padding: 0 40px;
+	}
+
+	.header_nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	.header_nav a:hover,
+ 	.header_nav ul ul ul a {
+		background-color: #000000;
+	}
+  
+	.header_nav ul li ul li .toggle,
+	.header_nav ul ul a,
+  .header_nav ul ul ul a{
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px; 
+	}
+  
+  
+	.header_nav ul li ul li .toggle,
+	.header_nav ul ul a {
+		background-color: #212121; 
+	}
+
+	/* Hide Dropdowns by Default */
+	.header_nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	.header_nav ul ul li:hover > ul,
+	.header_nav ul li:hover > ul {
+		display: none;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	.header_nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	.header_nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+
+}
+
+@media all and (max-width : 330px) {
+
+	.header_nav ul li {
+		display:block;
+		width: 94%;
+	}
+
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" >
+  <nav class="header_nav">
+        <div id="logo">Your Logo here</div>
+
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-1" class="toggle">WordPress +</label>
+                    <a href="#">WordPress</a>
+                    <input type="checkbox" id="drop-1"/>
+                    <ul>
+                        <li><a href="#">Themes and stuff</a></li>
+                        <li><a href="#">Plugins</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                    </ul> 
+
+                </li>
+                <li>
+
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle">Web Design +</label>
+                <a href="#">Web Design</a>
+                <input type="checkbox" id="drop-2"/>
+                <ul>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Links</a></li>
+                    <li>
+                       
+                    <!-- Second Tier Drop Down -->        
+                    <label for="drop-3" class="toggle">Tutorials +</label>
+                    <a href="#">Tutorials</a>         
+                    <input type="checkbox" id="drop-3"/>
+
+                    <ul>
+                        <li><a href="#">HTML/CSS</a></li>
+                        <li><a href="#">jQuery</a></li>
+                        <li><a href="#">Other</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Inspiration</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+
+
+  
+  
+  
+
+</body>
+
+</html>
+ 
